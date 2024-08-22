@@ -64,3 +64,64 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+
+
+# Slider Management Project
+
+## Overview
+
+This project is a Laravel-based web application designed for managing image sliders. It features functionality for saving images, displaying them in a carousel, and navigating through the images using previous and next buttons.
+
+## Features
+
+- **Image Carousel**: View images in a sliding carousel with navigation controls.
+- **Image Management**: Add and save images through a form.
+
+## Technologies Used
+
+- **Backend**: Laravel 11.x
+- **Frontend**: Bootstrap 4, AJAX
+- **Database**: MySQL
+
+## Installation
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/Shubambhardwaj/slider-management.git
+
+2 **Navigate to the Project Directory**
+     ```bash
+     cd slider-management
+
+3 **Install Dependencies**
+     ```bash
+    composer install
+    npm install
+
+4 **Navigate to the Project Directory**
+     ```bash
+     cp .env.example .env
+
+5 **Navigate to the Project Directory**
+     ```bash
+    php artisan key:generate
+
+
+
+6 **Navigate to the Project Directory**
+     ```bash
+     php artisan key:generate
+
+
+
+7 **Navigate to the Project Directory**
+     ```bash
+     php artisan serve
+
+
+
+
+

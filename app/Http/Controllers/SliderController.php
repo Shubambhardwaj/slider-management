@@ -24,7 +24,7 @@ class SliderController extends Controller
         $response = Http::withBasicAuth('f8u5yYc5DoGIrUqPA228n09qVFnQ4Fqn', 'ReEBAgaupayNDCuW')
             ->get('https://api.shutterstock.com/v2/images/search', [
                 'query' => $keyword,
-                'per_page' => 5, // Number of images to retrieve
+                'per_page' => 10, // Number of images to retrieve
             ]);
 
         // Check if the API call was successful
